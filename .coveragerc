@@ -1,0 +1,14 @@
+[run]
+source = posts
+omit =
+    */admin.py
+    */create_test_data.py
+    */migrations/*
+    */tests.py
+
+[report]
+exclude_lines =
+    pragma: no cover
+    if __name__ == .__main__.:
+    if settings.DEBUG
+    if TYPE_CHECKING

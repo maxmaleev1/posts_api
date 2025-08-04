@@ -1,0 +1,32 @@
+# Исключаем стандартные мусорные файлы
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Исключаем IDE и редакторы
+.vscode/
+.idea/
+
+# Исключаем Git и CI
+.git
+.gitignore
+.github/
+
+# Исключаем локальные окружения и зависимости
+.env
+.env.*
+.venv/
+
+# Исключаем тестовые и временные файлы
+*.log
+*.bak
+*.tmp
+coverage.*
+htmlcov/
+.tox/
+dist/
+build/
+
+# Не исключаем pyproject.toml и poetry.lock!
